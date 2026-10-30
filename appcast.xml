@@ -1,2 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Sheltie</title></channel></rss>
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Sheltie</title><item>
+            <title>0.2.0</title>
+            <pubDate>Fri, 30 Oct 2026 17:01:00 +0000</pubDate>
+            <link>https://github.com/sheltie-app/sheltie/releases</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>0.2.0b3</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description>&lt;pre&gt;## 0.2.0-beta.3 (2026-10-22)
+
+
+### Features
+
+* **displays:** Added automatic window size restoration
+* **displays:** Use fullscreen mode with recommended DPI scaling as default
+* **quick-connect:** Added full configuration for temporary connections
+* **updates:** Added in-app updates with Sparkle
+
+
+### Fixes
+
+* **displays:** Upgraded persisted factory display defaults
+&lt;/pre&gt;</description>
+            <enclosure url="https://github.com/sheltie-app/sheltie/releases/download/v0.2.0-beta.3/Sheltie-0.2.0-beta.3-macos26-arm64.dmg" length="34415416" type="application/octet-stream" sparkle:edSignature="YCryoTT644hIH1HpXyFv3h/30pJLzQgkoN+pXKijzR31vZcsA5qQfVUC1gH3ALc+XUeCknZPrnijo+r0oOOgCw==" />
+        </item>
+    </channel></rss>
