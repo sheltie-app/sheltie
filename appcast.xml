@@ -1,6 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Sheltie</title><item>
             <title>0.2.0</title>
+            <pubDate>Fri, 13 Nov 2026 07:18:25 +0000</pubDate>
+            <link>https://github.com/sheltie-app/sheltie/releases</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>0.2.0b4</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description>&lt;pre&gt;## 0.2.0-beta.4 (2026-11-13)
+
+
+### Features
+
+* **diagnostics:** Added a built-in packet capture option to Connect with Diagnostics
+* **diagnostics:** Added freeze snapshots and self-describing diagnostic folders
+* **displays:** Added manual screen refresh with combined recovery
+* **engine:** Updated the bundled FreeRDP engine to 3.33
+
+
+### Fixes
+
+* **displays:** Fixed the clipped Windows taskbar on a notched MacBook display in fullscreen multimon
+* **displays:** Fixed the remote desktop size on the MacBook display after external monitors disconnected
+* **displays:** Stopped sending a duplicate display layout after connecting, which ended sessions after about 10 seconds on some Windows hosts with NVIDIA hardware video encoding
+* Fixed connection previews flickering on hover
+* Fixed display selection in the performance panel during fullscreen sessions
+* Fixed performance charts leaving long sessions squeezed at the right edge
+* **fullscreen:** Fixed the missing connection bar and visible Dock after re-entering fullscreen
+* **reconnect:** Fixed the reconnecting overlay flickering and made the pointer visible while reconnecting
+&lt;/pre&gt;</description>
+            <enclosure url="https://github.com/sheltie-app/sheltie/releases/download/v0.2.0-beta.4/Sheltie-0.2.0-beta.4-macos26-arm64.dmg" length="34932114" type="application/octet-stream" sparkle:edSignature="JmtR0Egsj1Hv/dbzUo083rySrPRGgzwwrEhw1SdKlVGDYrmr6pHj2CgKFsgEOHBqOhVux1NwpEY3Y8ZBHbnYDQ==" />
+        </item>
+    <item>
+            <title>0.2.0</title>
             <pubDate>Fri, 30 Oct 2026 17:01:00 +0000</pubDate>
             <link>https://github.com/sheltie-app/sheltie/releases</link>
             <sparkle:channel>beta</sparkle:channel>
